@@ -1,0 +1,14 @@
+name: llama_good_news
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - requests
+  - jupyterlab
+  - jupyter-dash
+  - pip:
+    - beautifulsoup4
+    - ollama
